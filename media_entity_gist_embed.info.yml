@@ -1,0 +1,9 @@
+name: Media entity Gist embed
+description: 'Media entity Github gist provider.'
+package: Media
+
+type: module
+core: 8.x
+
+dependencies:
+  - media_entity

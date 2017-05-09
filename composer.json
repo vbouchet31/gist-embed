@@ -1,0 +1,10 @@
+{
+  "name": "drupal/gist-embed",
+  "description": "Integrate Github Gist with Media entities.",
+  "type": "drupal-module",
+  "require": {
+    "drupal/core": "<=8.3",
+    "drupal/media_entity": "^1.0",
+    "knplabs/github-api": "^2.3"
+  }
+}
