@@ -34,8 +34,6 @@ class GistEmbedFormatter extends FormatterBase {
         }
       }
 
-      ksm($matches);
-
       if (!empty($matches['shortcode'])) {
         $element[$delta] = [
           '#type' => 'markup',
